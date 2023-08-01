@@ -108,10 +108,10 @@
         <module name="ImportOrder">
             <property name="option" value="bottom"/>
             <property name="caseSensitive" value="true"/>
-            <property name="groups" value="/^ltd\.qubit\./,/^(?!javax?\.)/,/^(java|javax)\./"/>
+            <property name="groups" value="/^java\./,/^javax\./,/^jakarta\./,,/^ltd\.qubit\./,org,com"/>
             <property name="ordered" value="true"/>
             <property name="separated" value="true"/>
-            <property name="staticGroups" value="/^ltd\.qubit\./,/^(?!javax?\.)/,/^(java|javax)\./"/>
+            <property name="staticGroups" value="/^java\./,/^javax\./,/^jakarta\./,/^ltd\.qubit\./,org,com"/>
             <property name="separatedStaticGroups" value="true"/>
             <property name="sortStaticImportsAlphabetically" value="true"/>
         </module>
